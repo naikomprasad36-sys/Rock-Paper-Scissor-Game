@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="head">
+            <div class="mainHead">
+                <h1>🎮 ✊ Rock 📄 Paper ✂️ Scissor 🎮</h1>
+            </div>
+            <div class="subHead">
+                <h3>⚡ Think Fast • Choose Wisely • Claim Victory! ⚡</h3>
+            </div>
+
+        </div>
+        <div class="highScore">
+            <img src="https://cdn-icons-png.flaticon.com/128/9512/9512451.png" alt="">
+            <p class="high"></p>
+        </div>
+    </nav>
+    <div class="all">
+        <div class="left">
+            <div class="grnd">
+                <div class="grnd1">
+                    <div class="you">
+                        <span>You</span>
+                        <p class="user_img"></p>
+                    </div>
+
+                    <div class="vs">
+                        <p>VS</p>
+                        <p class="result"></p>
+                    </div>
+
+                    <div class="computer">
+                        <span>Computer</span>
+                        <p class="com_img"></p>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="move">
+                <div class="rock">
+                    <button onclick="playGame('rock');">
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/11346/11346478.png" alt=""></div>Rock
+                    </button>
+
+                </div>
+                <div class="paper">
+                    <button onclick="playGame('paper');">
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/3979/3979403.png" alt=""></div>Paper
+                    </button>
+
+                </div>
+                <div class="sessior">
+                    <button onclick="playGame('scissors');">
+                        <div><img src="https://cdn-icons-png.flaticon.com/128/10363/10363577.png" alt=""></div>Scissors
+                    </button>
+                </div>
+            </div>
+            <div class="btn">
+                <button onclick="resetAll()">reset All</button>
+                <button onclick="resetScore()">Play again</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="score">
+                <p class="current"></p>
+            </div>
+            <div class="summery">
+                <div class="win">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1177/1177568.png" alt="">
+                    <p class="u_win"></p>
+                </div>
+                <div class="lose">
+                    <img src="https://cdn-icons-png.flaticon.com/128/630/630426.png" alt="">
+                    <p class="c_win"></p>
+                </div>
+                <div class="draw">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1006/1006555.png" alt="">
+                    <p class="m_draw"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+<script src="script.js"></script>
+</html>

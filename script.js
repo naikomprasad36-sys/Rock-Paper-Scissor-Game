@@ -94,8 +94,8 @@ function resetAll() {
     u_win = 0;
     c_win = 0;
     m_draw = 0;
-    com_img = "";
-    user_img = "";
+    com_img = "👀";
+    user_img = "🧐";
     result = "Let's Play Again"
     dispResult();
     localStorage.clear();
@@ -108,8 +108,8 @@ function resetScore() {
     u_win = 0;
     c_win = 0;
     m_draw = 0;
-    com_img = "";
-    user_img = "";
+    com_img = "🧐";
+    user_img = "👀";
     result = "Let's Play Again"
     dispResult();
 }

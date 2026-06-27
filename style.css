@@ -86,7 +86,7 @@ nav h3 {
 
 .com_img,
 .user_img {
-    font-size: 65px;
+    font-size: 68px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -391,7 +391,6 @@ button {
 }
 
 .user_img {
-    font-size: 72px;
     color: #ffffff;
 
     text-shadow:
@@ -409,7 +408,6 @@ button {
 }
 
 .com_img {
-    font-size: 72px;
     color: #ffffff;
 
     text-shadow:

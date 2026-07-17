@@ -404,3 +404,251 @@ button:hover {
     transform: scale(1.08);
     transition: .3s;
 }
+
+@media (max-width: 1300px) {
+  nav h1 {
+    font-size: 3vw;
+}
+
+nav h3 {
+    font-size: 2vw;
+}
+
+.highScore {
+    font-size: 2.5vw;
+    border-radius: 15px;
+}
+
+.highScore img {
+    height: 2.5vw;
+}
+
+.all {
+
+
+    padding: 10px;
+    flex-direction: column-reverse;
+    
+}
+.right {
+
+    width: 90vw;
+    height: auto;
+    padding: 5px;
+    flex-direction: row-reverse;
+    gap: 10px;
+    font-size: 32px;
+}
+.left {
+    padding: 10px;
+    width: 90vw;
+    height: auto;
+}
+
+
+.summery img {
+    height: 5vw;
+}
+
+.summery p {
+    padding: 2px;
+    font-size: 2.5vw;
+}
+
+
+.com_img,
+.user_img {
+    font-size: 65px;
+}
+
+.grnd {
+    padding: 7px;
+}
+
+.you,
+.computer {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.you,
+.vs,
+.computer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.vs p:first-child {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vs {
+    margin: 25px;
+    border-radius: 30px;
+    width: 12rem;
+    font-size: 80px;
+}
+
+span {
+    font-size: 12px;
+}
+
+button {
+    font-size: 20px;
+    padding: 7px;
+    margin: 7px;
+    width: 8rem;
+
+}
+
+.move {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.you p,
+.computer p {
+    margin-top: 7px;
+    height: 155px;
+    width: 155px;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.you span,
+.computer span {
+    font-size: 30px;
+}
+
+.btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.rock button,
+.paper button,
+.sessior button {
+    border: 2px solid #9CA3AF;
+
+}
+
+.summery {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    height: 70%;
+}
+
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    width: 15rem;
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+.sessior button,
+.rock button,
+.paper button {
+    border-radius: 100px;
+    width: 25vw;
+    height: 25vw;
+    font-size: 4vw;
+
+
+}
+.rock button img,
+.paper button img,
+.sessior button img{
+    width: 7vw;
+    height: 7vw;
+}
+.you span,
+.computer span{
+    font-size: 4vw;
+}
+.move img {
+    height: 2.5vw;
+}
+}
+
+@media (max-width: 1024px) {
+    .all {
+        padding: 15px;
+        flex-direction: column-reverse; /* Stacks the layout */
+        align-items: center;
+        gap: 30px;
+    }
+
+    .right, .left {
+        width: 100%;
+        max-width: 800px; 
+        height: auto;
+        padding: 10px;
+    }
+
+    .right {
+        flex-direction: row-reverse;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .summery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .summery p { font-size: 20px; }
+    .summery img { height: 40px; }
+
+    .you, .vs, .computer {
+        height: 12vw;
+        width: 10vw;
+    }
+
+     .you p, .vs p, .computer p{
+        height: 8vw;
+        width: 8vw;
+    }
+
+    p.user_img , p.com_img {
+        font-size: 6vw;
+    }
+    .vs{
+        font-size: 6vw;
+    }
+    p.result{
+        font-size: 2vw;
+    }
+}
+@media (max-width: 500px) {
+
+     .right {
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+      
+    }
+
+}

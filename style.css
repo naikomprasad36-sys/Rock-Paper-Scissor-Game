@@ -406,6 +406,11 @@ button:hover {
 }
 
 @media (max-width: 1300px) {
+    .win,
+.lose,
+.draw {
+    width: 40vw;
+}
   nav h1 {
     font-size: 3vw;
 }
@@ -435,7 +440,6 @@ nav h3 {
     width: 90vw;
     height: auto;
     padding: 5px;
-    flex-direction: row-reverse;
     gap: 10px;
     font-size: 32px;
 }
@@ -570,9 +574,9 @@ button {
 .rock button,
 .paper button {
     border-radius: 100px;
-    width: 25vw;
-    height: 25vw;
-    font-size: 4vw;
+    width: 20vw;
+    height: 20vw;
+    font-size: 3vw;
 
 
 }
@@ -584,7 +588,7 @@ button {
 }
 .you span,
 .computer span{
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .move img {
     height: 2.5vw;
@@ -607,7 +611,6 @@ button {
     }
 
     .right {
-        flex-direction: row-reverse;
         gap: 15px;
         justify-content: center;
     }
